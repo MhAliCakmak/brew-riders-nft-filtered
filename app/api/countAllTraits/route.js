@@ -13,7 +13,7 @@ export async function POST(request) {
 }
 
 const countAllTraits = () => {
-  const nftsData = JSON.parse(fs.readFileSync(path.resolve('./app/api/nfts.json')));
+  const nftsData = JSON.parse(fs.readFileSync(path.resolve('./app/nfts.json')));
   const traitsCount = {};
 
   nftsData.forEach((nft) => {

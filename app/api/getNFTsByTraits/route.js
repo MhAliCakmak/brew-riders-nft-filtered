@@ -16,7 +16,7 @@ export async function POST(request) {
 
 const filterNFT = async (traits) => {
   try {
-    const nftsData = JSON.parse(fs.readFileSync(path.resolve('./app/api/nfts.json')));
+    const nftsData = JSON.parse(fs.readFileSync(path.resolve('./app/nfts.json')));
     const filteredNFTs = nftsData.filter((nft) => {
       if (nft.raw && nft.raw.metadata && nft.raw.metadata.attributes) {
         return Object.keys(traits).every((traitType) => {
