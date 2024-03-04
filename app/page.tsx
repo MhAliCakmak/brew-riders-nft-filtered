@@ -24,7 +24,7 @@ export default function Home() {
 
   const fetchAllTraits = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/countAllTraits', {
+      const response = await fetch('/api/countAllTraits', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ export default function Home() {
 
   const fetchNFTs = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/getNFTsByTraits', {
+      const response = await fetch('/api/getNFTsByTraits', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
