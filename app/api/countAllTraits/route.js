@@ -1,7 +1,7 @@
 // /pages/api/countAllTraits.js
-import fs from 'fs';
-import path from 'path';
-import { NextResponse } from 'next/server';
+import fs from "fs";
+import path from "path";
+import { NextResponse } from "next/server";
 
 export async function POST(request) {
   try {
@@ -12,8 +12,8 @@ export async function POST(request) {
   }
 }
 
+const nftsData = JSON.parse(fs.readFileSync(path.resolve("./app/nfts.json")));
 const countAllTraits = () => {
-  const nftsData = JSON.parse(fs.readFileSync(path.resolve('./app/nfts.json')));
   const traitsCount = {};
 
   nftsData.forEach((nft) => {

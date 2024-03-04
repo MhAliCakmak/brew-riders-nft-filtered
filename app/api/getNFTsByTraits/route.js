@@ -1,7 +1,6 @@
-
-import fs from 'fs';
-import path from 'path';
-import { NextResponse } from 'next/server';
+import fs from "fs";
+import path from "path";
+import { NextResponse } from "next/server";
 
 export async function POST(request) {
   try {
@@ -14,9 +13,9 @@ export async function POST(request) {
   }
 }
 
+const nftsData = JSON.parse(fs.readFileSync(path.resolve("./app/nfts.json")));
 const filterNFT = async (traits) => {
   try {
-    const nftsData = JSON.parse(fs.readFileSync(path.resolve('./app/nfts.json')));
     const filteredNFTs = nftsData.filter((nft) => {
       if (nft.raw && nft.raw.metadata && nft.raw.metadata.attributes) {
         return Object.keys(traits).every((traitType) => {
@@ -24,16 +23,19 @@ const filterNFT = async (traits) => {
           if (traitValues.length === 0) {
             return true;
           }
-          const matchingAttributes = nft.raw.metadata.attributes.filter((attribute) => {
-            return (
-              attribute &&
-              attribute.trait_type &&
-              attribute.value &&
-              attribute.trait_type.toLowerCase() === traitType.toLowerCase() &&
-              traitValues.includes(attribute.value.toLowerCase()) &&
-              attribute.value.trim() !== ''
-            );
-          });
+          const matchingAttributes = nft.raw.metadata.attributes.filter(
+            (attribute) => {
+              return (
+                attribute &&
+                attribute.trait_type &&
+                attribute.value &&
+                attribute.trait_type.toLowerCase() ===
+                  traitType.toLowerCase() &&
+                traitValues.includes(attribute.value.toLowerCase()) &&
+                attribute.value.trim() !== ""
+              );
+            }
+          );
 
           return matchingAttributes.length > 0;
         });
@@ -44,7 +46,7 @@ const filterNFT = async (traits) => {
 
     return filteredNFTs;
   } catch (error) {
-    console.error('Error in filterNFT:', error);
+    console.error("Error in filterNFT:", error);
     throw error;
   }
 };
