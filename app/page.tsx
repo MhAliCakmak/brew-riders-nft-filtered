@@ -1,8 +1,5 @@
 "use client"
-
-// /pages/index.tsx
-import { useState, useEffect } from 'react';
-
+import { useEffect, useState } from 'react';
 export default function Home() {
   const [selectedTraits, setSelectedTraits] = useState({});
   const [nfts, setNfts] = useState([]);
@@ -57,8 +54,6 @@ export default function Home() {
       }
 
       const apiResponse = await response.json();
-
-      // API yanıtındaki uygun alana göre nfts'i ayarlayın
       const nftsFromApi = apiResponse.data || apiResponse;
 
       setNfts(nftsFromApi);
@@ -103,6 +98,8 @@ export default function Home() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '20px' }}>
             {nfts.map((nft, index) => (
               <div key={index} style={{ border: '1px solid #ccc', padding: '10px', marginBottom: '10px' }}>
+                <img src={nft.image.pngUrl} alt={`NFT ${index + 1}`} style={{ maxWidth: '100%', marginBottom: '10px' }} />
+
                 <p>
                   <strong>ID:</strong> {nft.tokenId}
                 </p>
@@ -129,4 +126,3 @@ export default function Home() {
     </div>
   );
 }
-
