@@ -13,7 +13,7 @@ export async function POST(request) {
   }
 }
 
-const nftsData = JSON.parse(fs.readFileSync(path.resolve("./app/nftsV2.json")));
+const nftsData = JSON.parse(fs.readFileSync(path.resolve("./app/nftsV3.json")));
 const filterNFT = async (traits, page = 1, limit = 20) => {
   try {
     const filteredNFTs = [];

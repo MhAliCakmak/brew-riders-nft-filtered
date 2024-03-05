@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['res.cloudinary.com'], // Kullanacağınız hostu burada belirtin
+    domains: ['ipfs.io',"res.cloudinary.com"], // Kullanacağınız hostu burada belirtin
   },
     typescript: {
         // !! WARN !!
