@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 export async function POST(request) {
   try {
     const req = await request.json();
-    const data = await filterNFT(req.traits);
+    const data = await filterNFT(req.traits, req.page, req.limit);
 
     return NextResponse.json(data, { status: 200 });
   } catch (err) {
@@ -14,11 +14,14 @@ export async function POST(request) {
 }
 
 const nftsData = JSON.parse(fs.readFileSync(path.resolve("./app/nftsV2.json")));
-const filterNFT = async (traits) => {
+const filterNFT = async (traits, page = 1, limit = 20) => {
   try {
-    const filteredNFTs = nftsData.filter((nft) => {
+    const filteredNFTs = [];
+    let count = 0;
+
+    for (const nft of nftsData) {
       if (nft.metadata && nft.metadata.attributes) {
-        return Object.keys(traits).every((traitType) => {
+        const isMatch = Object.keys(traits).every((traitType) => {
           const traitValues = traits[traitType];
           if (traitValues.length === 0) {
             return true;
@@ -39,10 +42,19 @@ const filterNFT = async (traits) => {
 
           return matchingAttributes.length > 0;
         });
-      }
 
-      return false;
-    });
+        if (isMatch) {
+          count++;
+          if (count > (page - 1) * limit && count <= page * limit) {
+            filteredNFTs.push(nft);
+          }
+
+          if (count > page * limit) {
+            break;
+          }
+        }
+      }
+    }
 
     return filteredNFTs;
   } catch (error) {
