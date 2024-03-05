@@ -12,13 +12,13 @@ export async function POST(request) {
   }
 }
 
-const nftsData = JSON.parse(fs.readFileSync(path.resolve("./app/nfts.json")));
+const nftsData = JSON.parse(fs.readFileSync(path.resolve("./app/nftsV2.json")));
 const countAllTraits = () => {
   const traitsCount = {};
 
   nftsData.forEach((nft) => {
-    if (nft.raw && nft.raw.metadata && nft.raw.metadata.attributes) {
-      nft.raw.metadata.attributes.forEach((attribute) => {
+    if (nft.metadata && nft.metadata.attributes) {
+      nft.metadata.attributes.forEach((attribute) => {
         const traitType = attribute.trait_type.toLowerCase();
         const traitValue = attribute.value.toLowerCase();
 
