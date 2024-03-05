@@ -122,7 +122,7 @@ export default function Home() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '20px' }}>
             {nfts.map((nft, index) => (
               <div key={index} style={{ border: '1px solid #ccc', padding: '10px', marginBottom: '10px' }}>
-                <Image
+                <img
                   src={nft.pngUrl} // Burada resim URL'sini kullanarak resmi gösteriyoruz
                   alt={nft.metadata.name}
                   width={200} // İstenilen genişliği ayarlayabilirsiniz
