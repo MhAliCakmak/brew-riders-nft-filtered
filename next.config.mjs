@@ -10,6 +10,9 @@ const nextConfig = {
         // !! WARN !!
         ignoreBuildErrors: true,
       },
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+      },
 };
 
 export default nextConfig;
