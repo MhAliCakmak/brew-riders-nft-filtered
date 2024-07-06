@@ -1,37 +1,37 @@
-// /pages/api/countAllTraits.js
-import fs from "fs";
-import path from "path";
-import { NextResponse } from "next/server";
+  // /pages/api/countAllTraits.js
+  import fs from "fs";
+  import path from "path";
+  import { NextResponse } from "next/server";
 
-export async function POST(request) {
-  try {
-    const traitsCount = countAllTraits();
-    return NextResponse.json({ traitsCount }, { status: 200 });
-  } catch (err) {
-    return NextResponse.json({ error: err }, { status: 500 });
-  }
-}
-
-const nftsData = JSON.parse(fs.readFileSync(path.resolve("./app/nftsV2.json")));
-const countAllTraits = () => {
-  const traitsCount = {};
-
-  nftsData.forEach((nft) => {
-    if (nft.metadata && nft.metadata.attributes) {
-      nft.metadata.attributes.forEach((attribute) => {
-        const traitType = attribute.trait_type.toLowerCase();
-        const traitValue = attribute.value.toLowerCase();
-
-        if (!traitsCount[traitType]) {
-          traitsCount[traitType] = [];
-        }
-
-        if (!traitsCount[traitType].includes(traitValue)) {
-          traitsCount[traitType].push(traitValue);
-        }
-      });
+  export async function POST(request) {
+    try {
+      const traitsCount = countAllTraits();
+      return NextResponse.json({ traitsCount }, { status: 200 });
+    } catch (err) {
+      return NextResponse.json({ error: err }, { status: 500 });
     }
-  });
+  }
 
-  return traitsCount;
-};
+  const nftsData = JSON.parse(fs.readFileSync(path.resolve("./app/nftsV2.json")));
+  const countAllTraits = () => {
+    const traitsCount = {};
+
+    nftsData.forEach((nft) => {
+      if (nft.metadata && nft.metadata.attributes) {
+        nft.metadata.attributes.forEach((attribute) => {
+          const traitType = attribute.trait_type.toLowerCase();
+          const traitValue = attribute.value.toLowerCase();
+
+          if (!traitsCount[traitType]) {
+            traitsCount[traitType] = [];
+          }
+
+          if (!traitsCount[traitType].includes(traitValue)) {
+            traitsCount[traitType].push(traitValue);
+          }
+        });
+      }
+    });
+
+    return traitsCount;
+  };

@@ -1,0 +1,1328 @@
+[
+    {
+        "name": "Background",
+        "display_type": "string",
+        "values": [
+            {
+                "name": "Background",
+                "value": "Off White B",
+                "percentage": 0.0476,
+                "count": 238,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Background",
+                "value": "Orange",
+                "percentage": 0.1242,
+                "count": 621,
+                "eth_floor_price": 0.0019,
+                "usd_floor_price": 7.177046564732573
+            },
+            {
+                "name": "Background",
+                "value": "Myrtle Green",
+                "percentage": 0.2004,
+                "count": 1002,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Background",
+                "value": "Off White D",
+                "percentage": 0.0562,
+                "count": 281,
+                "eth_floor_price": 0.0018,
+                "usd_floor_price": 6.845381198975332
+            },
+            {
+                "name": "Background",
+                "value": "Off White",
+                "percentage": 0.0532,
+                "count": 266,
+                "eth_floor_price": 0.0049,
+                "usd_floor_price": 18.509225351152423
+            },
+            {
+                "name": "Background",
+                "value": "Dark Blue",
+                "percentage": 0.2226,
+                "count": 1113,
+                "eth_floor_price": 0.0027,
+                "usd_floor_price": 10.198960907777868
+            },
+            {
+                "name": "Background",
+                "value": "Off White P",
+                "percentage": 0.0536,
+                "count": 268,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Background",
+                "value": "Cyan",
+                "percentage": 0.1516,
+                "count": 758,
+                "eth_floor_price": 0.0023,
+                "usd_floor_price": 8.68800373625522
+            },
+            {
+                "name": "Background",
+                "value": "Red",
+                "percentage": 0.0906,
+                "count": 453,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            }
+        ],
+        "min": null,
+        "max": null,
+        "total": null
+    },
+    {
+        "name": "Eye",
+        "display_type": "string",
+        "values": [
+            {
+                "name": "Eye",
+                "value": "Shocked",
+                "percentage": 0.046,
+                "count": 230,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Eye",
+                "value": "Aviator Sunglasses",
+                "percentage": 0.0424,
+                "count": 212,
+                "eth_floor_price": 0.0055,
+                "usd_floor_price": 20.775661108436395
+            },
+            {
+                "name": "Eye",
+                "value": "Red Shades Merch",
+                "percentage": 0.0396,
+                "count": 198,
+                "eth_floor_price": 0.0033,
+                "usd_floor_price": 12.465396665061837
+            },
+            {
+                "name": "Eye",
+                "value": "Drunk",
+                "percentage": 0.0468,
+                "count": 234,
+                "eth_floor_price": 0.0029,
+                "usd_floor_price": 10.954439493539189
+            },
+            {
+                "name": "Eye",
+                "value": "Emotional",
+                "percentage": 0.0438,
+                "count": 219,
+                "eth_floor_price": 0.006,
+                "usd_floor_price": 22.664357572839705
+            },
+            {
+                "name": "Eye",
+                "value": "Squint",
+                "percentage": 0.0448,
+                "count": 224,
+                "eth_floor_price": 0.0035,
+                "usd_floor_price": 13.22087525082316
+            },
+            {
+                "name": "Eye",
+                "value": "VR Goggles",
+                "percentage": 0.035,
+                "count": 175,
+                "eth_floor_price": 0.0018,
+                "usd_floor_price": 6.845381198975332
+            },
+            {
+                "name": "Eye",
+                "value": "Mask Yellow",
+                "percentage": 0.0164,
+                "count": 82,
+                "eth_floor_price": 0.0023,
+                "usd_floor_price": 8.68800373625522
+            },
+            {
+                "name": "Eye",
+                "value": "Mad Peek",
+                "percentage": 0.0484,
+                "count": 242,
+                "eth_floor_price": 0.0069,
+                "usd_floor_price": 26.06401120876566
+            },
+            {
+                "name": "Eye",
+                "value": "Pool Goggles",
+                "percentage": 0.0316,
+                "count": 158,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Eye",
+                "value": "Pilot Glasses",
+                "percentage": 0.0386,
+                "count": 193,
+                "eth_floor_price": 0.0054,
+                "usd_floor_price": 20.397921815555737
+            },
+            {
+                "name": "Eye",
+                "value": "White Shades Merch",
+                "percentage": 0.0346,
+                "count": 173,
+                "eth_floor_price": 0.0019,
+                "usd_floor_price": 7.177046564732573
+            },
+            {
+                "name": "Eye",
+                "value": "Curious",
+                "percentage": 0.0432,
+                "count": 216,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Eye",
+                "value": "Wasted",
+                "percentage": 0.043,
+                "count": 215,
+                "eth_floor_price": 0.0027,
+                "usd_floor_price": 10.198960907777868
+            },
+            {
+                "name": "Eye",
+                "value": "Annoyed",
+                "percentage": 0.043,
+                "count": 215,
+                "eth_floor_price": 0.006,
+                "usd_floor_price": 22.664357572839705
+            },
+            {
+                "name": "Eye",
+                "value": "UV Poison",
+                "percentage": 0.0192,
+                "count": 96,
+                "eth_floor_price": 0.0039,
+                "usd_floor_price": 14.731832422345807
+            },
+            {
+                "name": "Eye",
+                "value": "Thug Life",
+                "percentage": 0.0226,
+                "count": 113,
+                "eth_floor_price": 0.012,
+                "usd_floor_price": 45.32871514567941
+            },
+            {
+                "name": "Eye",
+                "value": "Sad",
+                "percentage": 0.0384,
+                "count": 192,
+                "eth_floor_price": 0.0035,
+                "usd_floor_price": 13.22087525082316
+            },
+            {
+                "name": "Eye",
+                "value": "Rider",
+                "percentage": 0.0908,
+                "count": 454,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Eye",
+                "value": "Bored",
+                "percentage": 0.0444,
+                "count": 222,
+                "eth_floor_price": 0.0033,
+                "usd_floor_price": 12.465396665061837
+            },
+            {
+                "name": "Eye",
+                "value": "Eye Patch",
+                "percentage": 0.0466,
+                "count": 233,
+                "eth_floor_price": 0.0033,
+                "usd_floor_price": 12.465396665061837
+            },
+            {
+                "name": "Eye",
+                "value": "Mask Red",
+                "percentage": 0.0328,
+                "count": 164,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Eye",
+                "value": "Billiard Eye",
+                "percentage": 0.0276,
+                "count": 138,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Eye",
+                "value": "Red Glasses",
+                "percentage": 0.0304,
+                "count": 152,
+                "eth_floor_price": 0.0035,
+                "usd_floor_price": 13.22087525082316
+            },
+            {
+                "name": "Eye",
+                "value": "Star Pink",
+                "percentage": 0.0128,
+                "count": 64,
+                "eth_floor_price": 0.0159,
+                "usd_floor_price": 60.06054756802522
+            },
+            {
+                "name": "Eye",
+                "value": "Valve",
+                "percentage": 0.0116,
+                "count": 58,
+                "eth_floor_price": 0.0135,
+                "usd_floor_price": 50.99480453888933
+            },
+            {
+                "name": "Eye",
+                "value": "Cyborg",
+                "percentage": 0.0132,
+                "count": 66,
+                "eth_floor_price": 0.0111,
+                "usd_floor_price": 41.92906150975345
+            },
+            {
+                "name": "Eye",
+                "value": "Gold Merch Sunglasses",
+                "percentage": 0.0124,
+                "count": 62,
+                "eth_floor_price": 0.015,
+                "usd_floor_price": 56.660893932099256
+            }
+        ],
+        "min": null,
+        "max": null,
+        "total": null
+    },
+    {
+        "name": "Fur",
+        "display_type": "string",
+        "values": [
+            {
+                "name": "Fur",
+                "value": "Blue",
+                "percentage": 0.0866,
+                "count": 433,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Fur",
+                "value": "Pink",
+                "percentage": 0.0968,
+                "count": 484,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Fur",
+                "value": "Purple",
+                "percentage": 0.1008,
+                "count": 504,
+                "eth_floor_price": 0.0029,
+                "usd_floor_price": 10.954439493539189
+            },
+            {
+                "name": "Fur",
+                "value": "Orange",
+                "percentage": 0.1898,
+                "count": 949,
+                "eth_floor_price": 0.0018,
+                "usd_floor_price": 6.845381198975332
+            },
+            {
+                "name": "Fur",
+                "value": "Red",
+                "percentage": 0.1172,
+                "count": 586,
+                "eth_floor_price": 0.0019,
+                "usd_floor_price": 7.177046564732573
+            },
+            {
+                "name": "Fur",
+                "value": "Sewn",
+                "percentage": 0.0652,
+                "count": 326,
+                "eth_floor_price": 0.0035,
+                "usd_floor_price": 13.22087525082316
+            },
+            {
+                "name": "Fur",
+                "value": "Titanium",
+                "percentage": 0.042,
+                "count": 210,
+                "eth_floor_price": 0.009,
+                "usd_floor_price": 33.99653635925955
+            },
+            {
+                "name": "Fur",
+                "value": "Dalmatian Beige",
+                "percentage": 0.06,
+                "count": 300,
+                "eth_floor_price": 0.00477,
+                "usd_floor_price": 18.018164270407564
+            },
+            {
+                "name": "Fur",
+                "value": "Cat",
+                "percentage": 0.0812,
+                "count": 406,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Fur",
+                "value": "Coated",
+                "percentage": 0.0522,
+                "count": 261,
+                "eth_floor_price": 0.003,
+                "usd_floor_price": 11.332178786419853
+            },
+            {
+                "name": "Fur",
+                "value": "Glass",
+                "percentage": 0.0056,
+                "count": 28,
+                "eth_floor_price": 0.0235,
+                "usd_floor_price": 88.76873382695551
+            },
+            {
+                "name": "Fur",
+                "value": "Zombie",
+                "percentage": 0.0162,
+                "count": 81,
+                "eth_floor_price": 0.0234,
+                "usd_floor_price": 88.39099453407485
+            },
+            {
+                "name": "Fur",
+                "value": "Cosmic",
+                "percentage": 0.0352,
+                "count": 176,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Fur",
+                "value": "Gold",
+                "percentage": 0.0088,
+                "count": 44,
+                "eth_floor_price": 0.05,
+                "usd_floor_price": 188.86964644033088
+            },
+            {
+                "name": "Fur",
+                "value": "Brown",
+                "percentage": 0.0142,
+                "count": 71,
+                "eth_floor_price": 0.01,
+                "usd_floor_price": 37.77392928806618
+            },
+            {
+                "name": "Fur",
+                "value": "Dark Brown",
+                "percentage": 0.0136,
+                "count": 68,
+                "eth_floor_price": 0.014,
+                "usd_floor_price": 52.88350100329264
+            },
+            {
+                "name": "Fur",
+                "value": "Black",
+                "percentage": 0.0104,
+                "count": 52,
+                "eth_floor_price": 0.01,
+                "usd_floor_price": 37.77392928806618
+            },
+            {
+                "name": "Fur",
+                "value": "Mech",
+                "percentage": 0.0042,
+                "count": 21,
+                "eth_floor_price": 0.018,
+                "usd_floor_price": 67.9930727185191
+            }
+        ],
+        "min": null,
+        "max": null,
+        "total": null
+    },
+    {
+        "name": "Head",
+        "display_type": "string",
+        "values": [
+            {
+                "name": "Head",
+                "value": "American Football Helmet",
+                "percentage": 0.017,
+                "count": 85,
+                "eth_floor_price": 0.0033,
+                "usd_floor_price": 12.465396665061837
+            },
+            {
+                "name": "Head",
+                "value": "Operation Cap",
+                "percentage": 0.042,
+                "count": 210,
+                "eth_floor_price": 0.0038,
+                "usd_floor_price": 14.354093129465147
+            },
+            {
+                "name": "Head",
+                "value": "Biker Helmet Classic",
+                "percentage": 0.0356,
+                "count": 178,
+                "eth_floor_price": 0.00479,
+                "usd_floor_price": 18.093712128983697
+            },
+            {
+                "name": "Head",
+                "value": "White Cap Merch",
+                "percentage": 0.0368,
+                "count": 184,
+                "eth_floor_price": 0.0027,
+                "usd_floor_price": 10.198960907777868
+            },
+            {
+                "name": "Head",
+                "value": "Soldier Helmet",
+                "percentage": 0.0372,
+                "count": 186,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Head",
+                "value": "White Bucket Hat Merch",
+                "percentage": 0.0372,
+                "count": 186,
+                "eth_floor_price": 0.00477,
+                "usd_floor_price": 18.018164270407564
+            },
+            {
+                "name": "Head",
+                "value": "Gold Biker Helmet",
+                "percentage": 0.014,
+                "count": 70,
+                "eth_floor_price": 0.0111,
+                "usd_floor_price": 41.92906150975345
+            },
+            {
+                "name": "Head",
+                "value": "Spartan Helmet",
+                "percentage": 0.0148,
+                "count": 74,
+                "eth_floor_price": 0.0085,
+                "usd_floor_price": 32.10783989485625
+            },
+            {
+                "name": "Head",
+                "value": "Biker Helmet Cyan",
+                "percentage": 0.0314,
+                "count": 157,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Head",
+                "value": "Outlaw Hat",
+                "percentage": 0.0368,
+                "count": 184,
+                "eth_floor_price": 0.0018,
+                "usd_floor_price": 6.845381198975332
+            },
+            {
+                "name": "Head",
+                "value": "Tiara",
+                "percentage": 0.0092,
+                "count": 46,
+                "eth_floor_price": 0.22,
+                "usd_floor_price": 831.0264443374558
+            },
+            {
+                "name": "Head",
+                "value": "Police Cap",
+                "percentage": 0.0468,
+                "count": 234,
+                "eth_floor_price": 0.0023,
+                "usd_floor_price": 8.68800373625522
+            },
+            {
+                "name": "Head",
+                "value": "Biker Helmet Pink",
+                "percentage": 0.0232,
+                "count": 116,
+                "eth_floor_price": 0.0059,
+                "usd_floor_price": 22.286618279959043
+            },
+            {
+                "name": "Head",
+                "value": "Hard Hat",
+                "percentage": 0.0168,
+                "count": 84,
+                "eth_floor_price": 0.005,
+                "usd_floor_price": 18.88696464403309
+            },
+            {
+                "name": "Head",
+                "value": "Captain Hat",
+                "percentage": 0.0214,
+                "count": 107,
+                "eth_floor_price": 0.02,
+                "usd_floor_price": 75.54785857613236
+            },
+            {
+                "name": "Head",
+                "value": "Pilot Cap",
+                "percentage": 0.0274,
+                "count": 137,
+                "eth_floor_price": 0.0033,
+                "usd_floor_price": 12.465396665061837
+            },
+            {
+                "name": "Head",
+                "value": "Wig",
+                "percentage": 0.0086,
+                "count": 43,
+                "eth_floor_price": 0.0145,
+                "usd_floor_price": 54.77219746769595
+            },
+            {
+                "name": "Head",
+                "value": "Baseball Cap",
+                "percentage": 0.0266,
+                "count": 133,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Head",
+                "value": "Gold Halo",
+                "percentage": 0.0122,
+                "count": 61,
+                "eth_floor_price": 0.0149,
+                "usd_floor_price": 56.2831546392186
+            },
+            {
+                "name": "Head",
+                "value": "Hat Elegance Black",
+                "percentage": 0.0424,
+                "count": 212,
+                "eth_floor_price": 0.003,
+                "usd_floor_price": 11.332178786419853
+            },
+            {
+                "name": "Head",
+                "value": "Biker Helmet Black",
+                "percentage": 0.029,
+                "count": 145,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Head",
+                "value": "Pirate Hat",
+                "percentage": 0.0162,
+                "count": 81,
+                "eth_floor_price": 0.01739,
+                "usd_floor_price": 65.68886303194708
+            },
+            {
+                "name": "Head",
+                "value": "Ivy Cap",
+                "percentage": 0.0426,
+                "count": 213,
+                "eth_floor_price": 0.0019,
+                "usd_floor_price": 7.177046564732573
+            },
+            {
+                "name": "Head",
+                "value": "Gold Merch Bucket Hat",
+                "percentage": 0.0128,
+                "count": 64,
+                "eth_floor_price": 0.017,
+                "usd_floor_price": 64.2156797897125
+            },
+            {
+                "name": "Head",
+                "value": "Straw Hat",
+                "percentage": 0.0216,
+                "count": 108,
+                "eth_floor_price": 0.0057,
+                "usd_floor_price": 21.53113969419772
+            },
+            {
+                "name": "Head",
+                "value": "Viking Helmet",
+                "percentage": 0.0164,
+                "count": 82,
+                "eth_floor_price": 0.0098,
+                "usd_floor_price": 37.01845070230485
+            }
+        ],
+        "min": null,
+        "max": null,
+        "total": null
+    },
+    {
+        "name": "Mouth",
+        "display_type": "string",
+        "values": [
+            {
+                "name": "Mouth",
+                "value": "Bored",
+                "percentage": 0.0332,
+                "count": 166,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Mouth",
+                "value": "Mad",
+                "percentage": 0.042,
+                "count": 210,
+                "eth_floor_price": 0.0035,
+                "usd_floor_price": 13.22087525082316
+            },
+            {
+                "name": "Mouth",
+                "value": "Cigar",
+                "percentage": 0.0362,
+                "count": 181,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Mouth",
+                "value": "Worried",
+                "percentage": 0.0416,
+                "count": 208,
+                "eth_floor_price": 0.0046,
+                "usd_floor_price": 17.37600747251044
+            },
+            {
+                "name": "Mouth",
+                "value": "Rider",
+                "percentage": 0.0782,
+                "count": 391,
+                "eth_floor_price": 0.0029,
+                "usd_floor_price": 10.954439493539189
+            },
+            {
+                "name": "Mouth",
+                "value": "Knuckleduster",
+                "percentage": 0.0404,
+                "count": 202,
+                "eth_floor_price": 0.0023,
+                "usd_floor_price": 8.68800373625522
+            },
+            {
+                "name": "Mouth",
+                "value": "Piercing",
+                "percentage": 0.0212,
+                "count": 106,
+                "eth_floor_price": 0.0033,
+                "usd_floor_price": 12.465396665061837
+            },
+            {
+                "name": "Mouth",
+                "value": "Shocked",
+                "percentage": 0.0368,
+                "count": 184,
+                "eth_floor_price": 0.0033,
+                "usd_floor_price": 12.465396665061837
+            },
+            {
+                "name": "Mouth",
+                "value": "Pipe",
+                "percentage": 0.0366,
+                "count": 183,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Mouth",
+                "value": "Sad",
+                "percentage": 0.0442,
+                "count": 221,
+                "eth_floor_price": 0.00477,
+                "usd_floor_price": 18.018164270407564
+            },
+            {
+                "name": "Mouth",
+                "value": "Smile",
+                "percentage": 0.0412,
+                "count": 206,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Mouth",
+                "value": "Glass",
+                "percentage": 0.0094,
+                "count": 47,
+                "eth_floor_price": 0.03,
+                "usd_floor_price": 113.32178786419851
+            },
+            {
+                "name": "Mouth",
+                "value": "Gold Grin",
+                "percentage": 0.0138,
+                "count": 69,
+                "eth_floor_price": 0.0027,
+                "usd_floor_price": 10.198960907777868
+            },
+            {
+                "name": "Mouth",
+                "value": "Wrench",
+                "percentage": 0.0372,
+                "count": 186,
+                "eth_floor_price": 0.007,
+                "usd_floor_price": 26.44175050164632
+            },
+            {
+                "name": "Mouth",
+                "value": "Gum",
+                "percentage": 0.041,
+                "count": 205,
+                "eth_floor_price": 0.0018,
+                "usd_floor_price": 6.845381198975332
+            },
+            {
+                "name": "Mouth",
+                "value": "Titanium",
+                "percentage": 0.0578,
+                "count": 289,
+                "eth_floor_price": 0.0054,
+                "usd_floor_price": 20.397921815555737
+            },
+            {
+                "name": "Mouth",
+                "value": "Coated White",
+                "percentage": 0.0262,
+                "count": 131,
+                "eth_floor_price": 0.0069,
+                "usd_floor_price": 26.06401120876566
+            },
+            {
+                "name": "Mouth",
+                "value": "Gag",
+                "percentage": 0.0304,
+                "count": 152,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Mouth",
+                "value": "Confident",
+                "percentage": 0.0452,
+                "count": 226,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Mouth",
+                "value": "Blunt",
+                "percentage": 0.0376,
+                "count": 188,
+                "eth_floor_price": 0.0089,
+                "usd_floor_price": 33.618797066378896
+            },
+            {
+                "name": "Mouth",
+                "value": "Cigarette",
+                "percentage": 0.0394,
+                "count": 197,
+                "eth_floor_price": 0.0027,
+                "usd_floor_price": 10.198960907777868
+            },
+            {
+                "name": "Mouth",
+                "value": "Grin",
+                "percentage": 0.0422,
+                "count": 211,
+                "eth_floor_price": 0.003,
+                "usd_floor_price": 11.332178786419853
+            },
+            {
+                "name": "Mouth",
+                "value": "Drunk",
+                "percentage": 0.043,
+                "count": 215,
+                "eth_floor_price": 0.006,
+                "usd_floor_price": 22.664357572839705
+            },
+            {
+                "name": "Mouth",
+                "value": "Coated Black",
+                "percentage": 0.0228,
+                "count": 114,
+                "eth_floor_price": 0.003,
+                "usd_floor_price": 11.332178786419853
+            },
+            {
+                "name": "Mouth",
+                "value": "Chug It",
+                "percentage": 0.0426,
+                "count": 213,
+                "eth_floor_price": 0.0038,
+                "usd_floor_price": 14.354093129465147
+            },
+            {
+                "name": "Mouth",
+                "value": "Zombie",
+                "percentage": 0.0244,
+                "count": 122,
+                "eth_floor_price": 0.009,
+                "usd_floor_price": 33.99653635925955
+            },
+            {
+                "name": "Mouth",
+                "value": "Mech",
+                "percentage": 0.0064,
+                "count": 32,
+                "eth_floor_price": 0.01,
+                "usd_floor_price": 37.77392928806618
+            },
+            {
+                "name": "Mouth",
+                "value": "Cyborg",
+                "percentage": 0.0158,
+                "count": 79,
+                "eth_floor_price": 0.009,
+                "usd_floor_price": 33.99653635925955
+            },
+            {
+                "name": "Mouth",
+                "value": "Gold",
+                "percentage": 0.0132,
+                "count": 66,
+                "eth_floor_price": 0.0125,
+                "usd_floor_price": 47.21741161008272
+            }
+        ],
+        "min": null,
+        "max": null,
+        "total": null
+    },
+    {
+        "name": "Top",
+        "display_type": "string",
+        "values": [
+            {
+                "name": "Top",
+                "value": "American Football Jersey",
+                "percentage": 0.0116,
+                "count": 58,
+                "eth_floor_price": 0.006,
+                "usd_floor_price": 22.664357572839705
+            },
+            {
+                "name": "Top",
+                "value": "Police Uniform",
+                "percentage": 0.0106,
+                "count": 53,
+                "eth_floor_price": null,
+                "usd_floor_price": null
+            },
+            {
+                "name": "Top",
+                "value": "Spartan Armor",
+                "percentage": 0.0178,
+                "count": 89,
+                "eth_floor_price": 0.0038,
+                "usd_floor_price": 14.354093129465147
+            },
+            {
+                "name": "Top",
+                "value": "Leather Black Vest",
+                "percentage": 0.018,
+                "count": 90,
+                "eth_floor_price": 0.0057,
+                "usd_floor_price": 21.53113969419772
+            },
+            {
+                "name": "Top",
+                "value": "Cyan Jacket",
+                "percentage": 0.0094,
+                "count": 47,
+                "eth_floor_price": 0.003,
+                "usd_floor_price": 11.332178786419853
+            },
+            {
+                "name": "Top",
+                "value": "White T-Shirt Merch",
+                "percentage": 0.0166,
+                "count": 83,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Top",
+                "value": "Basketball Jersey",
+                "percentage": 0.0158,
+                "count": 79,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Top",
+                "value": "Cyberpunk",
+                "percentage": 0.0138,
+                "count": 69,
+                "eth_floor_price": 0.02,
+                "usd_floor_price": 75.54785857613236
+            },
+            {
+                "name": "Top",
+                "value": "Space Suit",
+                "percentage": 0.0182,
+                "count": 91,
+                "eth_floor_price": 0.0059,
+                "usd_floor_price": 22.286618279959043
+            },
+            {
+                "name": "Top",
+                "value": "Baseball Jersey",
+                "percentage": 0.0192,
+                "count": 96,
+                "eth_floor_price": 0.003,
+                "usd_floor_price": 11.332178786419853
+            },
+            {
+                "name": "Top",
+                "value": "Viking Armor",
+                "percentage": 0.0168,
+                "count": 84,
+                "eth_floor_price": 0.0048,
+                "usd_floor_price": 18.13148605827176
+            },
+            {
+                "name": "Top",
+                "value": "Captain Uniform",
+                "percentage": 0.0092,
+                "count": 46,
+                "eth_floor_price": 0.0235,
+                "usd_floor_price": 88.76873382695551
+            },
+            {
+                "name": "Top",
+                "value": "Bridal Gown",
+                "percentage": 0.0234,
+                "count": 117,
+                "eth_floor_price": 0.0059,
+                "usd_floor_price": 22.286618279959043
+            },
+            {
+                "name": "Top",
+                "value": "Denim Long Sleeve",
+                "percentage": 0.0154,
+                "count": 77,
+                "eth_floor_price": 0.0135,
+                "usd_floor_price": 50.99480453888933
+            },
+            {
+                "name": "Top",
+                "value": "Suit",
+                "percentage": 0.017,
+                "count": 85,
+                "eth_floor_price": 0.015,
+                "usd_floor_price": 56.660893932099256
+            },
+            {
+                "name": "Top",
+                "value": "Sheer",
+                "percentage": 0.0068,
+                "count": 34,
+                "eth_floor_price": 0.02,
+                "usd_floor_price": 75.54785857613236
+            },
+            {
+                "name": "Top",
+                "value": "Leather Black Jacket",
+                "percentage": 0.0158,
+                "count": 79,
+                "eth_floor_price": 0.0035,
+                "usd_floor_price": 13.22087525082316
+            },
+            {
+                "name": "Top",
+                "value": "Grey Biker Pro",
+                "percentage": 0.0136,
+                "count": 68,
+                "eth_floor_price": 0.0027,
+                "usd_floor_price": 10.198960907777868
+            },
+            {
+                "name": "Top",
+                "value": "White Tank",
+                "percentage": 0.0222,
+                "count": 111,
+                "eth_floor_price": 0.0025,
+                "usd_floor_price": 9.443482322016544
+            },
+            {
+                "name": "Top",
+                "value": "Bomber Leather Jacket",
+                "percentage": 0.0326,
+                "count": 163,
+                "eth_floor_price": 0.0039,
+                "usd_floor_price": 14.731832422345807
+            },
+            {
+                "name": "Top",
+                "value": "Shirt Square",
+                "percentage": 0.0168,
+                "count": 84,
+                "eth_floor_price": 0.005,
+                "usd_floor_price": 18.88696464403309
+            },
+            {
+                "name": "Top",
+                "value": "Overall Jeans",
+                "percentage": 0.0148,
+                "count": 74,
+                "eth_floor_price": 0.03,
+                "usd_floor_price": 113.32178786419851
+            },
+            {
+                "name": "Top",
+                "value": "Hoodie Red",
+                "percentage": 0.0094,
+                "count": 47,
+                "eth_floor_price": 0.02,
+                "usd_floor_price": 75.54785857613236
+            },
+            {
+                "name": "Top",
+                "value": "Red Hoodie Merch",
+                "percentage": 0.012,
+                "count": 60,
+                "eth_floor_price": 0.065,
+                "usd_floor_price": 245.53054037243015
+            },
+            {
+                "name": "Top",
+                "value": "Outlaw Shirt",
+                "percentage": 0.0162,
+                "count": 81,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Top",
+                "value": "Gold Biker Pro",
+                "percentage": 0.013,
+                "count": 65,
+                "eth_floor_price": 0.0099,
+                "usd_floor_price": 37.396189995185516
+            },
+            {
+                "name": "Top",
+                "value": "Gold Hoodie Merch",
+                "percentage": 0.0116,
+                "count": 58,
+                "eth_floor_price": 0.085,
+                "usd_floor_price": 321.0783989485625
+            },
+            {
+                "name": "Top",
+                "value": "Hoodie Yellow",
+                "percentage": 0.006,
+                "count": 30,
+                "eth_floor_price": 0.02,
+                "usd_floor_price": 75.54785857613236
+            },
+            {
+                "name": "Top",
+                "value": "Server Dress",
+                "percentage": 0.0148,
+                "count": 74,
+                "eth_floor_price": 0.0055,
+                "usd_floor_price": 20.775661108436395
+            },
+            {
+                "name": "Top",
+                "value": "Choker",
+                "percentage": 0.0166,
+                "count": 83,
+                "eth_floor_price": 0.013,
+                "usd_floor_price": 49.10610807448602
+            },
+            {
+                "name": "Top",
+                "value": "Cyborg",
+                "percentage": 0.0134,
+                "count": 67,
+                "eth_floor_price": 0.022,
+                "usd_floor_price": 83.10264443374558
+            },
+            {
+                "name": "Top",
+                "value": "White Hoodie Merch",
+                "percentage": 0.0134,
+                "count": 67,
+                "eth_floor_price": 0.0055,
+                "usd_floor_price": 20.775661108436395
+            },
+            {
+                "name": "Top",
+                "value": "Dark Blue Leather Jacket",
+                "percentage": 0.0116,
+                "count": 58,
+                "eth_floor_price": 0.00477,
+                "usd_floor_price": 18.018164270407564
+            },
+            {
+                "name": "Top",
+                "value": "Trench Coat",
+                "percentage": 0.0118,
+                "count": 59,
+                "eth_floor_price": 0.0035,
+                "usd_floor_price": 13.22087525082316
+            },
+            {
+                "name": "Top",
+                "value": "Prisoner Shirt",
+                "percentage": 0.0048,
+                "count": 24,
+                "eth_floor_price": 0.12,
+                "usd_floor_price": 453.28715145679405
+            },
+            {
+                "name": "Top",
+                "value": "Brown Leather Jacket",
+                "percentage": 0.0112,
+                "count": 56,
+                "eth_floor_price": 0.0029,
+                "usd_floor_price": 10.954439493539189
+            },
+            {
+                "name": "Top",
+                "value": "Black Denim Sleeveless",
+                "percentage": 0.012,
+                "count": 60,
+                "eth_floor_price": 0.01,
+                "usd_floor_price": 37.77392928806618
+            },
+            {
+                "name": "Top",
+                "value": "Operation Kevlar",
+                "percentage": 0.0166,
+                "count": 83,
+                "eth_floor_price": 0.0058,
+                "usd_floor_price": 21.908878987078378
+            },
+            {
+                "name": "Top",
+                "value": "Leather Black Sleeveless",
+                "percentage": 0.0138,
+                "count": 69,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Top",
+                "value": "White Biker Pro",
+                "percentage": 0.0186,
+                "count": 93,
+                "eth_floor_price": 0.004,
+                "usd_floor_price": 15.10957171522647
+            },
+            {
+                "name": "Top",
+                "value": "Soldier Shirt",
+                "percentage": 0.0176,
+                "count": 88,
+                "eth_floor_price": 0.0033,
+                "usd_floor_price": 12.465396665061837
+            },
+            {
+                "name": "Top",
+                "value": "Red Torn Vest",
+                "percentage": 0.0058,
+                "count": 29,
+                "eth_floor_price": 0.075,
+                "usd_floor_price": 283.3044696604963
+            },
+            {
+                "name": "Top",
+                "value": "Puffer Vest",
+                "percentage": 0.027,
+                "count": 135,
+                "eth_floor_price": 0.009,
+                "usd_floor_price": 33.99653635925955
+            },
+            {
+                "name": "Top",
+                "value": "Hoodie Black",
+                "percentage": 0.0112,
+                "count": 56,
+                "eth_floor_price": 0.04,
+                "usd_floor_price": 151.0957171522647
+            },
+            {
+                "name": "Top",
+                "value": "Blue T-Shirt Merch",
+                "percentage": 0.0156,
+                "count": 78,
+                "eth_floor_price": 0.00477,
+                "usd_floor_price": 18.018164270407564
+            },
+            {
+                "name": "Top",
+                "value": "Green Parachute",
+                "percentage": 0.011,
+                "count": 55,
+                "eth_floor_price": 0.0023,
+                "usd_floor_price": 8.68800373625522
+            },
+            {
+                "name": "Top",
+                "value": "Waistcoat",
+                "percentage": 0.0122,
+                "count": 61,
+                "eth_floor_price": 0.018,
+                "usd_floor_price": 67.9930727185191
+            },
+            {
+                "name": "Top",
+                "value": "Pirate Shirt",
+                "percentage": 0.0102,
+                "count": 51,
+                "eth_floor_price": 0.0145,
+                "usd_floor_price": 54.77219746769595
+            },
+            {
+                "name": "Top",
+                "value": "Denim Sleeveless",
+                "percentage": 0.0134,
+                "count": 67,
+                "eth_floor_price": 0.014,
+                "usd_floor_price": 52.88350100329264
+            }
+        ],
+        "min": null,
+        "max": null,
+        "total": null
+    }
+]
